@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "46f29e195317228c19fc",
-    "url": "/static/css/main.c7fb4228.chunk.css"
+    "revision": "b0adbee156efee3a2bda",
+    "url": "/static/css/main.c956a0c5.chunk.css"
   },
   {
-    "revision": "46f29e195317228c19fc",
-    "url": "/static/js/main.46f29e19.chunk.js"
+    "revision": "b0adbee156efee3a2bda",
+    "url": "/static/js/main.b0adbee1.chunk.js"
   },
   {
-    "revision": "b84e791988842ae2205f",
-    "url": "/static/js/1.b84e7919.chunk.js"
+    "revision": "6ae50b71493670deb877",
+    "url": "/static/js/1.6ae50b71.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -32,16 +32,20 @@ self.__precacheManifest = [
     "url": "/../docs/media/stb.29362830.jpeg"
   },
   {
-    "revision": "3bd240d1095303cbec81012dd0529638",
-    "url": "/../docs/media/github-logo.3bd240d1.svg"
+    "revision": "0cc50bb911e6bc93d0561ce504ebcc8d",
+    "url": "/../docs/media/gmail-logo.0cc50bb9.svg"
   },
   {
     "revision": "346a2d2b6410054c6e686b2164e3a0c7",
     "url": "/../docs/media/medium.346a2d2b.svg"
   },
   {
-    "revision": "0cc50bb911e6bc93d0561ce504ebcc8d",
-    "url": "/../docs/media/gmail-logo.0cc50bb9.svg"
+    "revision": "3bd240d1095303cbec81012dd0529638",
+    "url": "/../docs/media/github-logo.3bd240d1.svg"
+  },
+  {
+    "revision": "dcae6c699d6d9168c6372acf08587a1e",
+    "url": "/../docs/media/Chahana-Resume.dcae6c69.pdf"
   },
   {
     "revision": "3ee056b2b00773d600d675693e651784",
@@ -52,7 +56,7 @@ self.__precacheManifest = [
     "url": "/../docs/media/pinddy.ceac24b6.jpeg"
   },
   {
-    "revision": "b9ca9ddd746c1fa465509b39b8f2a915",
+    "revision": "83931f3d751cf8874f52a9ffb182d369",
     "url": "/index.html"
   }
 ];

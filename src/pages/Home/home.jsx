@@ -31,9 +31,15 @@ class Home extends Component {
           </div>
           <div className="right">
             <div className="avatar" />
-            <div className="title">
-              <img src={require("../../assets/icons8-pdf-50.png")} alt="" />
-              <span>Resume</span>
+            <div>
+              <a
+                className="title"
+                href={require("../../assets/Chahana-Resume.pdf")}
+                download
+              >
+                <img src={require("../../assets/icons8-pdf-50.png")} alt="" />
+                <span>Resume</span>
+              </a>
             </div>
             <Link to="/about" className="btn">
               Know More
