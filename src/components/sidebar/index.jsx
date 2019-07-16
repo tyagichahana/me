@@ -9,9 +9,9 @@ class Sidebar extends Component {
         <div className="logo" />
         <div className="midS">
           <Link className="home" to="/" />
-          <Link className="about" to="/about" />
-          <Link className="skills" to="/skills" />
-          <Link className="mywork" to="/my-work" />
+          <Link className="about" to="/me/about" />
+          <Link className="skills" to="/me/skills" />
+          <Link className="mywork" to="/me/my-work" />
         </div>
         <div className="bottomS">
           <a
