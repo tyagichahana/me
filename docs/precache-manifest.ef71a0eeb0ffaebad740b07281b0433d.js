@@ -36,12 +36,12 @@ self.__precacheManifest = [
     "url": "/static/media/gmail-logo.0cc50bb9.svg"
   },
   {
-    "revision": "3bd240d1095303cbec81012dd0529638",
-    "url": "/static/media/github-logo.3bd240d1.svg"
-  },
-  {
     "revision": "346a2d2b6410054c6e686b2164e3a0c7",
     "url": "/static/media/medium.346a2d2b.svg"
+  },
+  {
+    "revision": "3bd240d1095303cbec81012dd0529638",
+    "url": "/static/media/github-logo.3bd240d1.svg"
   },
   {
     "revision": "3ee056b2b00773d600d675693e651784",
