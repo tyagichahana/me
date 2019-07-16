@@ -17,22 +17,17 @@ const urlPatterns = [
     title: "Home"
   },
   {
-    path: "/:id",
-    component: Home,
-    title: "Home"
-  },
-  {
-    path: "/:id/about",
+    path: "/about",
     component: About,
     title: "About"
   },
   {
-    path: "/:id/skills",
+    path: "/skills",
     component: Skills,
     title: "skills"
   },
   {
-    path: "/:id/my-work",
+    path: "/my-work",
     component: MyWork,
     title: "MyWork"
   }
