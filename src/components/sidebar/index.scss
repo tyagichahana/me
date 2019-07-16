@@ -1,0 +1,146 @@
+.sidebar{
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 65px;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    height: 100vh;
+    transition: left 0.3s ease-in-out;
+    background-repeat: no-repeat;
+    user-select: none;
+    transition: all 0.4s ease-in-out;
+    background: black;
+    padding: 5px 0 20px 0;
+}
+.logo{
+    background: url(../../assets/icons8-wonder-woman-50.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+}
+.midS{
+    a{
+        display: block;
+        margin:10px 0 10px 0;
+    };
+    .home{
+        background: url(../../assets/icons8-profile-50.png);
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        &:hover{
+            border-bottom: 2px solid #a646d9;
+            transition: all .3s ease-out;
+            position: relative;
+            &::after{
+                content:'HOME';
+                color:#a646d9;
+                position: absolute;
+                font-size: 12px;
+                left: 100%;
+            }
+        };
+
+    };
+    .about{
+        background: url(../../assets/icons8-network-50.png);
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        &:hover{
+            border-bottom: 2px solid #a646d9;
+            transition: all .3s ease-out;
+            position: relative;
+            &::after{
+                content:'ABOUT';
+                position: absolute;
+                color:#a646d9;
+                font-size: 12px;
+                left: 100%;
+            }
+        };
+
+
+    };
+    .skills{
+        background: url(../../assets/icons8-report-card-50.png);
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        &:hover{
+            border-bottom: 2px solid #a646d9;
+            transition: all .3s ease-out;
+            position: relative;
+            &::after{
+                content:'SKILLS';
+                color:#a646d9;
+                font-size: 12px;
+                left: 100%;
+                position: absolute;
+            }
+        };
+
+    };
+    .mywork{
+        background: url(../../assets/icons8-profile-50.png);
+        background-repeat: no-repeat;
+        width: 35px;
+        height: 35px;
+        background-size: contain;
+        &:hover{
+            border-bottom: 2px solid #a646d9;
+            transition: all .3s ease-out;
+            position: relative;
+            &::after{
+                content:'MY WORK';
+                color:#a646d9;
+                font-size: 12px;
+                left: 100%;
+                position: absolute;
+            }
+        };
+
+    }
+}
+
+
+.bottomS{
+    a{
+      display: block;
+      background-repeat: no-repeat;
+      width: 35px;
+      height: 35px;
+      background-size: contain;
+
+      &:hover{
+        border-bottom: 2px solid #a646d9;
+        transition: all .3s ease-out;
+      };
+    }
+    .fb{
+      background-image: url(../../assets/icons8-facebook-50.png);
+    };
+    .google{
+      background-image: url(../../assets/gmail-logo.svg);
+    };
+    .linkedln{
+      background-image: url(../../assets/icons8-linkedin-2-50.png);
+    }
+    .medium{
+      background-image: url(../../assets/medium.svg);
+    }
+    .codepen{
+      background-image: url(../../assets/codepen.png);
+    }
+    .github{
+      background-image: url(../../assets/github-logo.svg);
+    }
+}
