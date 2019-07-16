@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/../docs/media/pinddy.ceac24b6.jpeg"
   },
   {
-    "revision": "83931f3d751cf8874f52a9ffb182d369",
+    "revision": "bb83074b7bd263b433aa449edd09f485",
     "url": "/index.html"
   }
 ];
