@@ -39,12 +39,6 @@ class Sidebar extends Component {
             rel="noreferrer noopener nofollow"
           />
           <a
-            href="https://medium.com/@ChahanaTyagi"
-            target="_blank"
-            rel="noreferrer noopener nofollow"
-            className="medium"
-          />
-          <a
             href="https://codepen.io/ChahanaTyagi/"
             target="_blank"
             rel="noreferrer noopener nofollow"
@@ -55,6 +49,12 @@ class Sidebar extends Component {
             target="_blank"
             rel="noreferrer noopener nofollow"
             className="github"
+          />
+          <a
+            href="https://medium.com/@ChahanaTyagi"
+            target="_blank"
+            rel="noreferrer noopener nofollow"
+            className="medium"
           />
         </div>
       </div>
