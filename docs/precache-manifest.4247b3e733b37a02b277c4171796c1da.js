@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "b0adbee156efee3a2bda",
-    "url": "/static/css/main.c956a0c5.chunk.css"
+    "revision": "f4f50c3e68b0d60f7ac5",
+    "url": "/static/css/main.07d7b862.chunk.css"
   },
   {
-    "revision": "b0adbee156efee3a2bda",
-    "url": "/static/js/main.b0adbee1.chunk.js"
+    "revision": "f4f50c3e68b0d60f7ac5",
+    "url": "/static/js/main.f4f50c3e.chunk.js"
   },
   {
     "revision": "6ae50b71493670deb877",
@@ -44,6 +44,10 @@ self.__precacheManifest = [
     "url": "/../docs/media/github-logo.3bd240d1.svg"
   },
   {
+    "revision": "c781b739f1a7f33bd15eae6f8f9b7e6f",
+    "url": "/../docs/media/twitter.c781b739.png"
+  },
+  {
     "revision": "dcae6c699d6d9168c6372acf08587a1e",
     "url": "/../docs/media/Chahana-Resume.dcae6c69.pdf"
   },
@@ -56,7 +60,7 @@ self.__precacheManifest = [
     "url": "/../docs/media/pinddy.ceac24b6.jpeg"
   },
   {
-    "revision": "1a8e85b1cf05400d8153cc09f79861e4",
+    "revision": "a78416383aef5411a0fe6d4b99990502",
     "url": "/index.html"
   }
 ];

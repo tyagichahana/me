@@ -21,6 +21,12 @@ class Sidebar extends Component {
             className="fb"
           />
           <a
+            href="https://twitter.com/ChahanaTyagi"
+            target="_blank"
+            rel="noreferrer noopener nofollow"
+            className="twitter"
+          />
+          <a
             href="mailto:chahanatyagi16@gmail.com"
             target="_blank"
             rel="noreferrer noopener nofollow"
@@ -33,13 +39,13 @@ class Sidebar extends Component {
             rel="noreferrer noopener nofollow"
           />
           <a
-            href="https://medium.com/@chahanatyagi16"
+            href="https://medium.com/@ChahanaTyagi"
             target="_blank"
             rel="noreferrer noopener nofollow"
             className="medium"
           />
           <a
-            href="https://codepen.io/chahana/"
+            href="https://codepen.io/ChahanaTyagi/"
             target="_blank"
             rel="noreferrer noopener nofollow"
             className="codepen"
