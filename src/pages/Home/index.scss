@@ -364,3 +364,19 @@
     }
   }
 }
+
+
+// mediaqueries###########################
+@media screen and (max-width: 992px) {
+  .content {
+    flex-direction: column-reverse;
+    display: flex;
+    color: #fff;
+    .right{
+      position: relative;
+      align-self: center;
+      text-align: center;
+      right:0%
+    }
+  }
+}
