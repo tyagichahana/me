@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "80b045c3367a0c283750",
-    "url": "/static/css/main.2c20ff8b.chunk.css"
+    "revision": "b9843ab8125d20561617",
+    "url": "/static/css/main.b77b2a1d.chunk.css"
   },
   {
-    "revision": "80b045c3367a0c283750",
-    "url": "/static/js/main.80b045c3.chunk.js"
+    "revision": "b9843ab8125d20561617",
+    "url": "/static/js/main.b9843ab8.chunk.js"
   },
   {
     "revision": "6ae50b71493670deb877",
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/../docs/media/stb.29362830.jpeg"
   },
   {
-    "revision": "dcae6c699d6d9168c6372acf08587a1e",
-    "url": "/../docs/media/Chahana-Resume.dcae6c69.pdf"
+    "revision": "d4921bd0e636163a445a2e2e259a811c",
+    "url": "/../docs/media/Chahana-Resume.d4921bd0.pdf"
   },
   {
     "revision": "3ee056b2b00773d600d675693e651784",
@@ -44,7 +44,7 @@ self.__precacheManifest = [
     "url": "/../docs/media/pinddy.ceac24b6.jpeg"
   },
   {
-    "revision": "99fbff33b74d31be82d52c19b87c400c",
+    "revision": "4f07b732f166ca5077cc9bda00986048",
     "url": "/index.html"
   }
 ];
