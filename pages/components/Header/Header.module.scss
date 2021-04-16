@@ -1,73 +1,72 @@
-@import '../../../styles/variable.scss';
+@import "../../../styles/variable.scss";
 
-.header{
-    display: flex;
-    justify-content: space-around;
-    opacity: 1;
-    top: 0px;
-    background: $black;
-    height: 80px;
-    padding: 0 15px;
-    width: 100%;
-    position: absolute;
-    z-index: 1000;
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  opacity: 1;
+  top: 0px;
+  background: $black;
+  height: 80px;
+  padding: 0 15px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+  color: $white;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  .navItem {
     color: $white;
-    text-align: center;
-    line-height: 80px;
-    font-size: 18px;
-    font-weight: 400;
-    .navItem{
-        color: $white;
-        ul{
-            list-style: none;
-            display: flex;
-            margin: 0px;
-            padding: 0px;
-            height: 100%;
-        }
-        li{
-            padding: 0 15px;
-            :hover{
-                color: $dark-grey;
-            }
-            a{
-                text-decoration: none;
-            };
-        };
-    };
-}
-.social{
-    cursor: pointer;
-    .twitter{
-        background-image: url('../../../media/images/twitter-16.ico');
-        background-position: center;
-        background-repeat: no-repeat
-    };
-    .email{
-        background-image: url('../../../media/images/facebook-16.png');
-        background-position: center;
-        background-repeat: no-repeat
-    };
-    .linkedin{
-        background-image: url('../../../media/images/linkedin-16.ico');
-        background-position: center;
-        background-repeat: no-repeat
-    };
-    .facebook{  
-        background-image: url('../../../media/images/facebook-16.png');
-        background-position: center;
-        background-repeat: no-repeat
-    };
-    .medium{
-        background-image: url('../../../media/images/medium2.png');
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 100%;
-        width: 12px;
-        background-size: contain;
+    ul {
+      list-style: none;
+      display: flex;
+      margin: 0px;
+      padding: 0px;
+      height: 100%;
     }
+    li {
+      padding: 0 15px;
+      :hover {
+        color: $dark-grey;
+      }
+      a {
+        text-decoration: none;
+      }
+    }
+  }
 }
-.containers{
-    color:red;
+.social {
+  cursor: pointer;
+  .twitter {
+    background-image: url("../../../media/images/twitter-16.ico");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .email {
+    background-image: url("../../../media/images/facebook-16.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .linkedin {
+    background-image: url("../../../media/images/linkedin-16.ico");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .facebook {
+    background-image: url("../../../media/images/facebook-16.png");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .medium {
+    background-image: url("../../../media/images/medium2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 12px;
+    background-size: contain;
+  }
 }
-
+.containers {
+  color: red;
+}

@@ -1,17 +1,50 @@
-@import './variable.scss';
+@import "./variable.scss";
 
 html,
-body {
+body,
+p {
   padding: 0;
   margin: 0;
-  font-family: "proxima nova", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial,
+    Sans-serif;
 }
 
 a {
   color: inherit;
   text-decoration: none;
 }
+ul {
+  list-style: none;
+}
 
 * {
   box-sizing: border-box;
+}
+section {
+  margin-left: 20px;
+}
+h1 {
+  font-size: 55px;
+  font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+  letter-spacing: -0.075em;
+  margin: 0;
+  font-weight: normal;
+  color: $black;
+}
+.flex {
+  display: flex;
+}
+.spc-btwn {
+  justify-content: space-between;
+}
+.col-2 {
+  flex-basis: 50%;
+}
+.introText {
+  font-size: 26px;
+  font-weight: 300;
+  color: $dark-grey;
+  line-height: 1.3em;
+  margin-bottom: 0.7em;
+  clear: both;
 }
