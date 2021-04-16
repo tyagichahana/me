@@ -1,12 +1,15 @@
 import styles from "./container.module.scss";
+import clsx from 'clsx';
 
 function Container(props) {
   return (
-    <main className={styles.container}>
-      <div className={styles.contentSection}>
-        {props.children}
-      </div>
-    </main>
+    <div {...props} className={clsx(styles.container, props.className, {
+      [styles.flex]: props.flex,
+      [styles.alignCenter]: props.alignCenter,
+      [styles.justifyCenter]: props.justifyCenter,
+    })}>
+      {props.children}
+    </div>
   );
 }
 export default Container;

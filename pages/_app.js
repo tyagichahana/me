@@ -4,15 +4,18 @@ import '../styles/variable.scss'
 // COMPONENTS
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Container from "./components/Container";
+import Layout from "./components/Layout";
+import Container from './components/Container';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
       <Header />
-      <Container>
-        <Component {...pageProps} />
-      </Container>
+      <Layout>
+        <Container>
+          <Component {...pageProps} />
+        </Container>
+      </Layout>
       <Footer />
     </>
   )
