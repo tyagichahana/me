@@ -4,25 +4,25 @@
   background-color: $grey;
   font-size: 16px;
   color: $dark-grey;
-  box-shadow: inset 0px 1px 3px 0px rgb(0 0 0 / 10%);
-  :hover {
-    color: $black;
-  }
+  box-shadow: $box-shadow;
+}
 
-  .footerContent {
-    height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
+.footerContent {
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
-  .footerItem {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    li {
-      padding: 0 15px;
+.footerItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  li {
+    padding: 0 15px;
+    :hover {
+      color: $black;
     }
   }
 }

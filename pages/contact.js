@@ -3,7 +3,7 @@ import styles from "../styles/contact.module.scss";
 export default function Contact() {
   return (
     <>
-      <div className="flex spc-btwn">
+      <div className="section flex spc-btwn">
         <section className="col-2">
           <h1 style={{ color: `$black` }}>contact me</h1>
           <p className="introText">

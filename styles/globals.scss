@@ -20,9 +20,7 @@ ul {
 * {
   box-sizing: border-box;
 }
-section {
-  margin-left: 20px;
-}
+
 h1 {
   font-size: 55px;
   font-family: "neosans regular", "Helvetica Neue", Helvetica, Arial, Sans-serif;
@@ -45,6 +43,34 @@ h1 {
   font-weight: 300;
   color: $dark-grey;
   line-height: 1.3em;
-  margin-bottom: 0.7em;
+  margin: 0.7em 0;
   clear: both;
+}
+.black {
+  color: $black;
+}
+.grey {
+  color: $grey;
+}
+.text {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6em;
+  margin-bottom: 15px;
+  clear: both;
+  font-family: "proxima nova light", "Helvetica Neue", Helvetica, Arial,
+    Sans-serif;
+}
+.borderBtm {
+  border-bottom: 1px solid $mid-grey;
+}
+.greyBg {
+  background-color: $grey;
+}
+
+.section {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 100px 300px;
 }

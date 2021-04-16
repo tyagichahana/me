@@ -1,4 +1,8 @@
-.header{
-    opacity: 1;
-    top: 0px;
+@import "./variable.scss";
+.aboutImage {
+  background-image: url("../media/images/me.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  background-size: cover;
+  background-position: top;
 }
