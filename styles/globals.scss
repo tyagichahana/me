@@ -32,16 +32,20 @@ h1 {
 .flex {
   display: flex;
 }
+.alignItm {
+  align-items: center;
+}
 .spc-btwn {
   justify-content: space-between;
 }
 .col-2 {
   flex-basis: 50%;
 }
-.introText {
+.headingM {
   font-size: 26px;
+}
+.introText {
   font-weight: 300;
-  color: $dark-grey;
   line-height: 1.3em;
   margin: 0.7em 0;
   clear: both;
@@ -51,6 +55,9 @@ h1 {
 }
 .grey {
   color: $grey;
+}
+.darkGrey {
+  color: $dark-grey;
 }
 .text {
   font-size: 20px;
@@ -72,5 +79,5 @@ h1 {
   width: 100%;
   margin-right: auto;
   margin-left: auto;
-  padding: 100px 300px;
+  padding: 0px 300px 0px 300px;
 }

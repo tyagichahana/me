@@ -1,8 +1,24 @@
 @import "./variable.scss";
 .aboutImage {
-  background-image: url("../media/images/me.jpg");
+  background-image: url("../media/images/me9-removebg-preview.jpg");
   background-repeat: no-repeat;
   height: 500px;
   background-size: cover;
   background-position: top;
+}
+.funFact {
+  // background-image: url("../media/images/me5-removebg-preview.jpg");
+  background-image: url("../media/images/gif2.gif");
+  background-repeat: no-repeat;
+  height: 400px;
+  width: 500px;
+  background-size: contain;
+  margin-top: 35px;
+}
+.skillGraph {
+  background-image: url("../media/images/graph.png");
+  background-repeat: no-repeat;
+  height: 200px;
+  width: 100%;
+  background-size: contain;
 }
